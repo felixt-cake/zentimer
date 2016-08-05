@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -z "$ZENTIMER_JAR" ]; then
+    ZENTIMER_JAR="/Users/Yourname/git/zentimer/target/scala-2.11/zentimer-assembly-1.0.jar"
+else
+    echo $ZENTIMER_JAR
+fi
+
+java -jar $ZENTIMER_JAR $* # 2> /dev/null
