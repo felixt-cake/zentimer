@@ -6,4 +6,4 @@ else
     echo $ZENTIMER_JAR
 fi
 
-java -jar $ZENTIMER_JAR $* # 2> /dev/null
+java -jar $ZENTIMER_JAR $* 2> /dev/null
